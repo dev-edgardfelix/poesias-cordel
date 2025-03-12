@@ -79,6 +79,32 @@ section.imagem > p{
     text-shadow: 1px 2px 0px black;
     background-size: cover;
 }
+#like{
+    font-family: var(--fonte2);
+    font-size: 1.3em;
+    padding-left: 20px;
+    padding-right: 30px;
+    font-weight: bold;
+}
+#like:hover{
+    color: blue;
+    transition-duration: .2s;
+    cursor: pointer;
+}
+
+#deslike{
+    font-family: var(--fonte2);
+    font-size: 1.3em;
+    padding-left: 20px;
+    padding-right: 30px;
+    font-weight: bold;
+}
+#deslike:hover{
+    color: red;
+    transition-duration: .2s;
+    cursor: pointer;
+}
+
 footer{
     background-color: black;
     color: white;
