@@ -46,6 +46,8 @@ main{
     margin-top: 20px;
     min-width: 300px;
     max-width: 1200px;
+    border-radius: 5px 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.308);
 
 }
 
@@ -84,9 +86,25 @@ footer{
     margin: auto;
     padding: 10px;
     text-align: center;
-    margin-top: 100%;
+    margin-top: 5%;
 }
-
+footer > p{
+    font-family: var(--fonte1);
+    font-size: 1.3em;
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px black;
+}
+footer > p > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+footer > p > a:hover{
+    color: rgb(0, 223, 0);
+    text-decoration: underline;
+    transition-duration: .3s;
+}
 footer > a{
     text-decoration: none;
     padding-left: 30px;

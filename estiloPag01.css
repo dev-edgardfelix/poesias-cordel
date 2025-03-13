@@ -13,9 +13,10 @@
 }
 
 html,body{
-    min-height: 100vh;
-    background-color: darkgrey;
-    font-family: var(--fonte1) ;
+    min-height: 98vh;
+    background-color: rgb(0, 0, 0);
+    font-family: var(--fonte1);
+
 }
 header{
     background-color: black;
@@ -31,6 +32,20 @@ header > h1{
 header > p{
     color: whitesmoke;
     padding-bottom: 30px;
+}
+nav{
+    background-color: black;
+    padding: 10px;
+}
+.menu{
+    padding: 10px;
+}
+
+.menu:hover{
+    background: rgb(170, 170, 170);
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
 }
 a{
     text-decoration: none;
@@ -78,6 +93,9 @@ section.imagem > p{
     padding: 5px;
     text-shadow: 1px 2px 0px black;
     background-size: cover;
+}
+.avaliação{
+    background-color: rgba(0, 255, 85, 0.726);
 }
 #like{
     font-family: var(--fonte2);
