@@ -31,6 +31,15 @@ header > p{
     font-weight: bold;
     font-family: var(--fonte1);
 }
+header > p > a{
+    color: white;
+    text-decoration: none;
+}
+header > p > a:hover{
+    color: rgb(251, 255, 0);
+    text-decoration: underline;
+    transition-duration: .3s;
+}
 nav{
     background-color:  rgba(255, 0, 0, 0.767);
     padding: 10px;
@@ -48,9 +57,7 @@ nav > a:hover{
     color: rgb(251, 255, 0);
     transition-duration: 0.3s;
 }
-main{
-    padding: 15px;
-}
+
 section{
     padding-top: 10vh; 
     padding-bottom: 10vh;
@@ -84,6 +91,30 @@ section > p{
     background-image: url('imagens/céu-estrelado.jpg');
     background-position: right center;
     background-size: cover;
+}
+#imgPag02-1{
+    background-image: url('imagens/relógio-mapa.jpg');
+    background-size: cover;
+    background-position: left center;
+}
+
+
+footer{
+    background-color: rgba(255, 0, 0, 0.767);
+    color: white;
+    padding: 7px;
+    font-size: 17px;
+    text-align: center;
+}
+footer > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+footer > a:hover{
+    color: rgb(251, 255, 0);
+    text-decoration: underline;
+    transition-duration: .3s;
 }
 
 
