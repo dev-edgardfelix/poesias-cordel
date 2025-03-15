@@ -1,0 +1,110 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root{
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: "Sriracha", cursive;
+    --fonte3: "Passion One", sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    height: 100vh;
+    background-color: rgba(128, 128, 128, 0.534);
+}
+header{
+    background-color: rgba(0, 107, 0, 0.795);
+    padding: 15px;
+    text-align: center;
+}
+header > h1{
+    padding-bottom: 15px;
+    font-variant: small-caps;
+    font-size: 2.4em;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+header > p{
+    color: white;
+    font-size: 1em;
+    font-family: var(--fonte1);
+    font-weight: bold;
+}
+header > p > a{
+    text-decoration: none;
+    color: white;
+}
+header > p > a:hover{
+    text-decoration: underline;
+    color: rgb(231, 139, 0);
+    transition-duration: .3s;
+}
+nav{
+    background-color: rgba(0, 107, 0, 0.795);
+    padding: 10px;
+}
+nav > a{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+    font-family: var(--fonte1);
+    font-weight: bold;
+}
+nav > a:hover{
+    background-color: rgb(228, 125, 0);
+    border-radius: 5px;
+    color: rgb(0, 88, 0);
+    transition-duration: .3s;
+}
+section{
+    padding: 30px;
+    background-color: white;
+    font-family: var(--fonte2);
+}
+section > p{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    font-size: 3.8vw;
+}
+.normalPag04{
+    background-color: white;
+    color: black;
+}
+.imagemPag04{
+    color: white;
+    text-shadow: 1px 1px 0px black;
+    background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.596);
+}
+.imagemPag04 > p{
+    background-color: rgba(54, 54, 54, 0.438);
+    padding: 10px;
+}
+#imgPag04{
+    background-image: url('imagens/céu-estrelado.jpg');
+    background-position: right center;
+    background-attachment: fixed;
+}
+footer{
+    background-color:  rgba(0, 107, 0, 0.795);
+    padding: 5px;
+    text-align: center;
+    font-family: var(--fonte1);
+    color: white;
+    font-weight: bold;
+}
+footer > p > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+footer > p > a:hover{
+    text-decoration: underline;
+    color: rgb(231, 139, 0);
+    transition-duration: .3s;
+}
