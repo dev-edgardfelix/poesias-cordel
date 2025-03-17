@@ -66,23 +66,31 @@ section{
     font-size: 4vw;
 }
 section > p{
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-size: 4vw;
 }
 .normalPag05{
     background-color: white;
 }
 .imagemPag05{
-    background-size: cover;
+    padding: 25px;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px black;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.815);
+    background-attachment: fixed;
 }
 .imagemPag05 > p{
-    background-color: rgba(61, 61, 61, 0.349);
-    color: white;
-    text-shadow: 1px 1px 1px black;
+    background-color: rgba(39, 39, 39, 0.438);
+    display: inline-block;
+    background-size: cover;
+    padding: 5px;
 }
 #imgPag05{
     background-image: url('imagens/relógio-mapa.jpg');
-    background-attachment: fixed;
+    background-size: cover;
 }
 footer{
     color: white;
