@@ -100,7 +100,34 @@ section > p{
     background-size: cover;
     background-position: center center;
 }
-
+.avaliação{
+    background-color: rgb(177, 177, 177);
+    padding: 5px;
+}
+#like{
+    font-family: var(--fonte2);
+    font-size: 1.3em;
+    padding-left: 20px;
+    padding-right: 30px;
+    font-weight: bold;
+}
+#like:hover{
+    color: blue;
+    transition-duration: .2s;
+    cursor: pointer;
+}
+#amei{
+    font-family: var(--fonte2);
+    font-size: 1.3em;
+    padding-left: 20px;
+    padding-right: 30px;
+    font-weight: bold;
+}
+#amei:hover{
+    color: red;
+    transition-duration: .2s;
+    cursor: pointer;
+}
 
 footer{
     background-color: rgba(255, 0, 0, 0.767);

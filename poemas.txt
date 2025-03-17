@@ -1,26 +1,42 @@
+HTML: 
 
-PRO DIA QUE CHEGA - Roberta Campos (Poesia cantada)
+<div class="avaliação">
+                <span id="like" onclick="gostei()">
+                    🤜🏻 <span>Gostei</span>
+                </span>
+    
+                <span id="amei" onclick="amei()">
+                    🖤 <span>Amei</span>
+                </span>
+            </div>
 
-Fez-se mar pra escorrer
-E o sol aquecer o ar que soprou
-Secou toda dor
-Partiu de uma vez
-Do interior
-A noite acabou em água
+CSS:
 
-Deixa o rio correr
-Andar ao redor
-Descer por aí
-Sabendo de cor
-A se descrever nas nuvens do céu
-As tuas pegadas vão ficar
-
-Me leve com você
-A onde você for vou ficar
-Me leve com você
-A onde você for
-
-Coisas do tempo
-Que acaba quando a noite chega
-E toda noite a queda
-Pro dia que chega
+.avaliação{
+    background-color: rgb(177, 177, 177);
+    padding: 5px;
+}
+#like{
+    font-family: var(--fonte2);
+    font-size: 1.3em;
+    padding-left: 20px;
+    padding-right: 30px;
+    font-weight: bold;
+}
+#like:hover{
+    color: blue;
+    transition-duration: .2s;
+    cursor: pointer;
+}
+#amei{
+    font-family: var(--fonte2);
+    font-size: 1.3em;
+    padding-left: 20px;
+    padding-right: 30px;
+    font-weight: bold;
+}
+#amei:hover{
+    color: red;
+    transition-duration: .2s;
+    cursor: pointer;
+}

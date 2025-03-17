@@ -86,9 +86,37 @@ section > p{
     padding: 10px;
 }
 #imgPag04{
-    background-image: url('imagens/céu-estrelado.jpg');
-    background-position: right center;
+    background-image: url('imagens/relogioBolso-tempo.jpg');
+    background-position: center center;
     background-attachment: fixed;
+}
+.avaliação{
+    background-color: rgb(177, 177, 177);
+    padding: 5px;
+}
+#like{
+    font-family: var(--fonte2);
+    font-size: 1.3em;
+    padding-left: 20px;
+    padding-right: 30px;
+    font-weight: bold;
+}
+#like:hover{
+    color: blue;
+    transition-duration: .2s;
+    cursor: pointer;
+}
+#amei{
+    font-family: var(--fonte2);
+    font-size: 1.3em;
+    padding-left: 20px;
+    padding-right: 30px;
+    font-weight: bold;
+}
+#amei:hover{
+    color: red;
+    transition-duration: .2s;
+    cursor: pointer;
 }
 footer{
     background-color:  rgba(0, 107, 0, 0.795);
